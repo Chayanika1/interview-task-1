@@ -267,9 +267,20 @@ button:hover{
     display:flex;
    
 }
+.courses1{
+    display:flex;
+   
+}
 .course{
     display: grid;
     grid-template-columns:repeat(5,1fr);
+    grid-row-gap:2px;
+    padding:5px;
+
+}
+.course1{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
     grid-row-gap:2px;
     padding:5px;
 
@@ -332,6 +343,7 @@ a{
        }
        .section-title{
            text-align: center;
+           margin: auto;
        }
        .camera-name{
           flex-direction: column;
@@ -355,6 +367,16 @@ a{
           
           grid-template-columns: 1fr;
       }
+      .course1{
+        flex-direction:column;
+        width:100%;
+        align-items: center;
+        justify-content: center;
+       
+       
+        
+        grid-template-columns: 1fr;
+    }
       nav ul{
           height:230px;
           flex-direction: column;
