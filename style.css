@@ -389,7 +389,7 @@ a{
 
   @media only screen and (min-width:689px) and (max-width:992px) {
      .container{
-         width:100%;
+         width:90%;
          padding: 30px 0;
      }
      .top-camera{
