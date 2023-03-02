@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 body{
     font-family:poppins;
-    background-color: #F3F1FF;;
+   
 }
 h4{
     margin-bottom: 30px;
@@ -184,7 +184,7 @@ h4{
 
 
 .container{
-    background-color: white;
+    
     width:1000px;
     padding:30px;
     margin-top:21px;
@@ -355,15 +355,20 @@ a{
           width:100%;
           align-items: center;
           justify-content: center;
+          
          
          
           
           grid-template-columns: 1fr;
       }
+      
+      .course-banner{
+        height: 50%;
+      }
       nav ul{
           height:230px;
           flex-direction: column;
-          margin-right: 80px;
+         margin: auto;
          
           padding: 10px;
          
@@ -379,20 +384,174 @@ a{
           flex-direction: column;
       }
   }
+  .slider{
+    height: 400px;
+ }
+ .drop select{
+  
+  justify-content: center;
+          align-items: center;
+          flex-direction: column;
+
+ }
+ 
+
+  
+
+
+  @media only screen and (min-width:689px) and (max-width:992px) {
+     .container{
+         width:80%;
+         
+     }
+     .top-camera{
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+     }
+     .course{
+         grid-template-columns: repeat(2,1fr);
+         padding:0px;
+         height: 100%;
+         overflow: hidden;
+         
+     }
+     .course{
+         flex-direction: column;
+     }
+     .course-banner img{
+         width: 100%;
+         
+         
+     }
+     #img1{
+         width:100px;
+     }
+     
+  
+  }
+  @media only screen and (min-width:768px) and (max-width:1024px) {
+    .container{
+        width:70%;
+        
+    }
+    .top-camera{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .course{
+        grid-template-columns: repeat(2,1fr);
+        padding:0px;
+        height: 100%;
+        overflow: hidden;
+        
+    }
+    .course{
+        flex-direction: column;
+    }
+    .course-banner img{
+        width: 100%;
+        
+        
+    }
+    #img1{
+        width:100px;
+    }
+    
+ 
+ }
+  @Media only screen and (max-width:688px){
+      .container{
+          
+          width:100%;
+      }
+      
+       .title{
+           text-align: center;
+       }
+       .section-title{
+           text-align: center;
+       }
+       .camera-name{
+          flex-direction: column;
+          grid-template-columns: 1fr;
+          align-items: center;
+          justify-content: center;
+       }
+       .cameras{
+           flex-direction: column;
+           grid-template-columns: 1fr;
+           align-items: center;
+           justify-content: center;
+       }
+      .course{
+          flex-direction:column;
+          width:100%;
+          align-items: center;
+          justify-content: center;
+         
+         
+          
+          grid-template-columns: 1fr;
+      }
+      .course-banner{
+        text-align: center;
+       border: 1px solid rgb(247, 34, 105);
+       width: 100%;
+       border-radius: 5px;
+       padding-top: 5px;
+    }
+      nav{
+        display: flex;
+        justify-content: center;
+      }
+      nav ul{
+          height:auto;
+          display: flex;     
+      }
+      nav ul li{
+          margin-bottom: 10px;
+          
+      }
+      header .container{
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+      }
+      .slider{
+        height: 50vh;
+      }
+      .slider .arrows {
+        display: flex;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        color: #fff;
+        font-size: 40px;
+        transition: 0.4s linear;
+      }
+      .slider .dots label {
+        display: inline-block;
+        border-radius: 100%;
+        margin: 0 6px;
+        width: 15px;
+        height: 15px;
+        background-color: #fff;
+      }
+  }
   .cameras img{
       transition: 0.4s ease;
   }
   .cameras img:hover{
       transform:translateY(-20px);
   }
-  .container{
-    border: 2px solid red;
-  }
+  
 
 
   @media only screen and (min-width:689px) and (max-width:992px) {
      .container{
-         width:80%;
+         width:100%;
          
      }
      .top-camera{
@@ -418,6 +577,8 @@ a{
   
   
   }
+     
+
      
 
   
