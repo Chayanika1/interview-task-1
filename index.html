@@ -1,653 +1,515 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <script src="https://kit.fontawesome.com/3bbbc0cfa6.js" crossorigin="anonymous"></script>
 </head>
-
-<body>
+<body style="border:1px solid green">
     <header>
-        <div style="display: flex; align-items: center;" class="container">
-            <div class="title-head">
-                <img style="height:100px" src="Images/header-icon.png" alt="" />
+        <div class='part1'>
+            <div class='heading-1'>
+                <p>FLOWER TO GERMANY</p>
             </div>
-            <!-- navbar -->
-            <nav>
-                <ul class="nav_bar">
-                    <li><a href="#"><img style="height:50px" src="Images/head-icon-1.png" /></a></li>
-                    <li><a href="#"><img style="height:50px" src="Images/head-icon-2.png" /></a></li>
-                    <li><a href="#"><img style="height:50px" src="Images/head-icon-3.png" /></a></li>
-                    <li><a href="#"><img style="height:50px" src="Images/head-icon-4.png" /></a></li>
-
-
-                </ul>
-            </nav>
-
+            <div class="heading-2">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                CONTACT 
+            </div>
         </div>
+        <div class="part2">
+            <div class="head-1">
+                 <img style="height:50px;margin:0;padding:0" src="http://www.germanflora.de/theme/logo2.webp"alt=""/><br>
+            <span class="span1">local florist in germany</span>
+            </div>
+             <div class="head-2">
+                 <p>FLOWER DELIVERY GERMANY</p>
+             </div>
+              <div class="head-3">
+                  <ul class="nav-bar">
+               
+                
+                
+                <li><a href="#"><i class="fa-sharp fa-solid fa-wallet"></i><a></li>
+                <li><a href="#"><i class="fa-solid fa-user"></i></a></li>
+                <li><a href="#"><i class="fa-solid fa-location-dot"></i></a></li>
+                <li><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li><br><br>
+                
+                
+            </ul>
+              </div>
+        </div>
+        
+       <div class="topnav" id="myTopnav">
+        <div class="dropdown">
+             <a href="#" class="active">Home <i class="fa fa-sort-desc" aria-hidden="true"></i>
+         
+  </a>
+    <div class="dropdown-content">
+           <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+                
+        </div>
+ 
 
+  <a href="#"class="a1">News</a>
+  <a href="#"class="a1">Contact</a>
+  <a href="#"class="a1">About</a>
+   <a href="#"class="a1">About</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+   <i class="fa fa-bars" aria-hidden="true"></i>
+  </a>
+  </a>
+</div>
+          
     </header>
     <main>
-        <section class="container">
-            <div class="drop" style="margin-top: 0;">
-                <select id="drop1" style="width:150px;background-color: purple;color: white;">
-                    <option>ALL CATEGORIES</option>
-                    <option>flowers</option>
-                    <option>Flowers</option>
-                </select>
-                <select id="drop2"style="width:150px ;text-align: center;background-color: purple;color: white;">
-                    <option>OCCATIONS</option>
-                    <option>flowers</option>
-                    <option>Flowers</option>
-                </select>
-                <select style="width:150px; text-align: center;background-color: purple;color: white;">
-                    <option>FLOWERS</option>
-                    <option>flowers</option>
-                    <option>Flowers</option>
-                </select>
-                <select style="width:150px; text-align: center;background-color: purple;color: white;">
-                    <option>GIFTS</option>
-                    <option>flowers</option>
-                    <option>Flowers</option>
-                </select>
-                <select style="width:150px;background-color: purple;color: white;">
-                    <option>CONFIRS ORDERS</option>
-                    <option>flowers</option>
-                    <option>Flowers</option>
-                </select>
-                <select style="width:150px;background-color: purple;color: white;">
-                    <option>CONFIRS ORDERS</option>
-                    <option>flowers</option>
-                    <option>Flowers</option>
-                </select>
-                <select style="width:150px;background-color: purple;color: white;">
-                    <option>CONFIRS ORDERS</option>
-                    <option>flowers</option>
-                    <option>Flowers</option>
-                </select>
-                <select style="width:150px;background-color: purple;color: white;">
-                    <option>CONFIRS ORDERS</option>
-                    <option>flowers</option>
-                    <option>Flowers</option>
-                </select>
-                <select style="width:150px;background-color: purple;color: white;">
-                    <option>CONFIRS ORDERS</option>
-                    <option>flowers</option>
-                    <option>Flowers</option>
-                </select>
-                <select style="width:100px;background-color: purple;color: white;">
-                    <option>ORDERS</option>
-                    <option>flowers</option>
-                    <option>Flowers</option>
-                </select>
-                
-            </div>
-            <div class="top-camera">
-
-                <div class="slider">
-                    <input type="radio" name="slide" id="slide-1" checked>
-                    <input type="radio" name="slide" id="slide-2">
-                    <input type="radio" name="slide" id="slide-3">
-
-                    <div class="slides">
-                        <div class="slide slide-1">
-
+        <div class='slider1'>
+             <div class="owl-carousel owl-theme"id="slider">
+                            <div class="item">
+                                <img src="https://www.germanflora.de/theme/carousal-3-for-homepageflowers.webp" alt=""/>
+                            </div>
+                            <div class="item">
+                                 <img src="https://www.germanflora.de/theme/carousal-3-for-homepageflowers.webp" alt=""/>
+                            </div>
+                            <div class="item">
+                                 <img src="https://www.germanflora.de/theme/carousal-3-for-homepageflowers.webp" alt=""/>
+                            </div>
+                            
                         </div>
-                        <div class="slide slide-2">
+        </div>
+            <div class="middle">
+                    <p class='hi2'>FLOWERS TO GERMANY</p>
+                    
+                   
+                    
+                </div>
+           <div class="flower1">
+               <div class="course"id="flower1">
+                         <div class="course-banner">
+                            <div class="banner-img">
+                                 <img class="i1" style="height:310px" src="https://www.germanflora.de/theme/index-category-banner2.webp" alt=""/>
+                                  <p class='all-flower'>ALL FLOWER</p>
+                            </div>
+                            
+                            
 
-                        </div>
-                        <div class="slide slide-3">
+                         </div>
+                         
+                         
+                     </div>
+                      <div class="course">
+                         <div class='course-banner'>
+                             <img class="i1"src="https://www.germanflora.de/images/GBDE745.webp" alt=""/>
+                             <p class="info">Token Of Red Love</p><br>                             
+                             <span class="details">Earliest Delivery : <b>11-Mar</b></span><br>
+                             <div class="btn_box">
 
-                        </div>
-                    </div>
+                                <div class="price">EURO : 44.4</div>
+                                <div class="btn">BUY NOW</div>
+                            </div>
+                         </div>
+                          
+                     </div>
+                      <div class="course">
+                         <div class='course-banner'>
+                             <img class="i1"src="https://www.germanflora.de/images/GBDE745.webp" alt=""/>
+                             <p class="info">Token Of Red Love</p><br>                             
+                             <span class="details">Earliest Delivery : <b>11-Mar</b></span><br>
+                             <div class="btn_box">
 
-                    <div class="arrows arrow-left">
-                        <label for="slide-3">
-                            <span><i class="fas fa-angle-left"></i></span>
-                        </label>
-                        <label for="slide-1">
-                            <span><i class="fas fa-angle-left"></i></span>
-                        </label>
-                        <label for="slide-2">
-                            <span><i class="fas fa-angle-left"></i></span>
-                        </label>
-                    </div>
+                                <div class="price">EURO : 44.4</div>
+                                <div class="btn">BUY NOW</div>
+                            </div>
+                         </div>
+                          
+                     </div>
+                      <div class="course">
+                         <div class='course-banner'>
+                             <img class="i1"src="https://www.germanflora.de/images/GBDE745.webp" alt=""/>
+                             <p class="info">Token Of Red Love</p><br>                             
+                             <span class="details">Earliest Delivery : <b>11-Mar</b></span><br>
+                             <div class="btn_box">
 
-                    <div class="arrows arrow-right">
-                        <label for="slide-2">
-                            <span><i class="fas fa-angle-right"></i></span>
-                        </label>
-                        <label for="slide-3">
-                            <span><i class="fas fa-angle-right"></i></span>
-                        </label>
-                        <label for="slide-1">
-                            <span><i class="fas fa-angle-right"></i></span>
-                        </label>
-                    </div>
+                                <div class="price">EURO : 44.4</div>
+                                <div class="btn">BUY NOW</div>
+                            </div>
+                         </div>
+                          
+                     </div>
+                      <div class="course">
+                         <div class='course-banner'>
+                             <img class="i1"src="https://www.germanflora.de/images/GBDE745.webp" alt=""/>
+                             <p class="info">Token Of Red Love</p><br>                             
+                             <span class="details">Earliest Delivery : <b>11-Mar</b></span><br>
+                             <div class="btn_box">
 
-                    <div class="dots">
-                        <label for="slide-1"></label>
-                        <label for="slide-2"></label>
-                        <label for="slide-3"></label>
-                    </div>
+                                <div class="price">EURO : 44.4</div>
+                                <div class="btn">BUY NOW</div>
+                            </div>
+                         </div>
+                          
+                     </div>
+           </div>
+           <div class="flower1">
+               <div class="course"id="flower1">
+                         <div class="course-banner">
+                            <div class="banner-img">
+                                 <img class="i1" style="height:310px" src="https://www.germanflora.de/theme/index-category-banner2.webp" alt=""/>
+                                  <p class='all-flower'>ALL FLOWER</p>
+                            </div>
+                            
+                            
 
+                         </div>
+                         
+                         
+                     </div>
+                      <div class="course">
+                         <div class='course-banner'>
+                             <img class="i1"src="https://www.germanflora.de/images/GBDE745.webp" alt=""/>
+                             <p class="info">Token Of Red Love</p><br>                             
+                             <span class="details">Earliest Delivery : <b>11-Mar</b></span><br>
+                             <div class="btn_box">
+
+                                <div class="price">EURO : 44.4</div>
+                                <div class="btn">BUY NOW</div>
+                            </div>
+                         </div>
+                          
+                     </div>
+                      <div class="course">
+                         <div class='course-banner'>
+                             <img class="i1"src="https://www.germanflora.de/images/GBDE745.webp" alt=""/>
+                             <p class="info">Token Of Red Love</p><br>                             
+                             <span class="details">Earliest Delivery : <b>11-Mar</b></span><br>
+                             <div class="btn_box">
+
+                                <div class="price">EURO : 44.4</div>
+                                <div class="btn">BUY NOW</div>
+                            </div>
+                         </div>
+                          
+                     </div>
+                      <div class="course">
+                         <div class='course-banner'>
+                             <img class="i1"src="https://www.germanflora.de/images/GBDE745.webp" alt=""/>
+                             <p class="info">Token Of Red Love</p><br>                             
+                             <span class="details">Earliest Delivery : <b>11-Mar</b></span><br>
+                             <div class="btn_box">
+
+                                <div class="price">EURO : 44.4</div>
+                                <div class="btn">BUY NOW</div>
+                            </div>
+                         </div>
+                          
+                     </div>
+                      <div class="course">
+                         <div class='course-banner'>
+                             <img class="i1"src="https://www.germanflora.de/images/GBDE745.webp" alt=""/>
+                             <p class="info">Token Of Red Love</p><br>                             
+                             <span class="details">Earliest Delivery : <b>11-Mar</b></span><br>
+                             <div class="btn_box">
+
+                                <div class="price">EURO : 44.4</div>
+                                <div class="btn">BUY NOW</div>
+                            </div>
+                         </div>
+                          
+                     </div>
+           </div>
+           <!-------------CAKES TO GERMANY------------------->
+           <div class="middle">
+                    <p class='hi2'style="margin-top: 20px">CAKES TO GERMANY</p>
+                    
+                   
+                    
                 </div>
 
-
-
-
-            </div>
-
-
-
-        </section>
-
-        <section class="container">
-            <h2 style="text-align:center" class="section-title">
-                FLOWER COLLECTION
-            </h2>
-            <div class="courses">
-                <div class="course">
-                    <div class="course-banner" id="course-style">
-                        <img src="Images/flower4.png" alt="">
-                        <h3 class="course-title">
-                            Flexible Tripod
-                        </h3>
-                        <p class="course-aut">
-                            $45.12
-                        </p>
-                        <div class="course-info">
-
-                            World wide shifting and water proof
-                        </div>
-                        <div class="btn_box">
-                            <div class="btn">Add to cart</div>
-                            <div class="btn">Details</div>
-                        </div>
-                    </div>
-
-                    <div class="course">
-                        <div class="course-banner">
-                            <img src="Images/flower2.png" alt="">
-                            <h3 class="course-title">
-                                Smart Camera
-                            </h3>
-                            <p class="course-aut">
-                                $45.12
-                            </p>
-                            <div class="course-info">
-
-                                portable three lagged frame or stand
+           <div class="flower1">
+               <div class="course"id="flower1">
+                         <div class="course-banner">
+                            <div class="banner-img">
+                                 <img class="i1" style="height:310px" src="https://www.germanflora.de/theme/index-category-banner3.webp" alt=""/>
+                                  <p class='all-flower'>ALL FLOWER</p>
                             </div>
-                            <div class="btn_box">
-                                <div class="btn">Add to cart</div>
-                                <div class="btn">Details</div>
+                            
+                            
+
+                         </div>
+                         
+                         
+                     </div>
+                      <div class="course">
+                         <div class='course-banner'>
+                             <img class="i1"src="https://www.germanflora.de/images/1002.webp" alt=""/>
+                             <p class="info">Token Of Red Love</p><br>                             
+                             <span class="details">Earliest Delivery : <b>11-Mar</b></span><br>
+                             <div class="btn_box">
+
+                                <div class="price">EURO : 44.4</div>
+                                <div class="btn">BUY NOW</div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="course">
-                        <div class="course-banner">
-                            <img src="Images/flower3.png" alt="">
-                            <h3 class="course-title">
-                                Flexible Waterproof Drone
-                            </h3>
-                            <p class="course-aut">
-                                $45.12
-                            </p>
-                            <div class="course-info">
+                         </div>
+                          
+                     </div>
+                      <div class="course">
+                         <div class='course-banner'>
+                             <img class="i1"src="https://www.germanflora.de/images/1009.webp" alt=""/>
+                             <p class="info">Token Of Red Love</p><br>                             
+                             <span class="details">Earliest Delivery : <b>11-Mar</b></span><br>
+                             <div class="btn_box">
 
-                                Remorte controlled, capability like capturing and water proof
+                                <div class="price">EURO : 44.4</div>
+                                <div class="btn">BUY NOW</div>
                             </div>
-                            <div class="btn_box">
-                                <div class="btn">Add to cart</div>
-                                <div class="btn">Details</div>
+                         </div>
+                          
+                     </div>
+                      <div class="course">
+                         <div class='course-banner'>
+                             <img class="i1"src="https://www.germanflora.de/images/1007.webp" alt=""/>
+                             <p class="info">Token Of Red Love</p><br>                             
+                             <span class="details">Earliest Delivery : <b>11-Mar</b></span><br>
+                             <div class="btn_box">
+
+                                <div class="price">EURO : 44.4</div>
+                                <div class="btn">BUY NOW</div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="course">
-                        <div class="course-banner">
-                            <img src="Images/flower4.png" alt="">
-                            <h3 class="course-title">
-                                Exclusive Setup
-                            </h3>
-                            <p class="course-aut">
-                                $45.12
-                            </p>
-                            <div class="course-info">
+                         </div>
+                          
+                     </div>
+                      <div class="course">
+                         <div class='course-banner'>
+                             <img class="i1"src="https://www.germanflora.de/images/1005.webp" alt=""/>
+                             <p class="info">Token Of Red Love</p><br>                             
+                             <span class="details">Earliest Delivery : <b>11-Mar</b></span><br>
+                             <div class="btn_box">
 
-                                creazy and fumbelling and tater proof too World wide shifting and water proof
+                                <div class="price">EURO : 44.4</div>
+                                <div class="btn">BUY NOW</div>
                             </div>
-                            <div class="btn_box">
-                                <div class="btn">Add to cart</div>
-                                <div class="btn">Details</div>
+                         </div>
+                          
+                     </div>
+           </div>
+               <p class='hi2'style="margin-top: 20px">DECORATIVE PLANTS</p>
+           
+
+           <div class="flower1">
+               <div class="course"id="flower1">
+                         <div class="course-banner">
+                            <div class="banner-img">
+                                 <img class="i1" style="height:310px" src="https://www.germanflora.de/theme/index-category-banner4.webp" alt=""/>
+                                  <p class='all-flower'>ALL FLOWER</p>
                             </div>
-                        </div>
-                    </div>
-                    <div class="course">
-                        <div class="course-banner">
-                            <img src="Images/flower5.png" alt="">
-                            <h3 class="course-title">
-                                Flexible Tripod
-                            </h3>
-                            <p class="course-aut">
-                                $45.12
-                            </p>
-                            <div class="course-info">
+                            
+                            
 
-                                World wide shifting and water proof
+                         </div>
+                         
+                         
+                     </div>
+                      <div class="course">
+                         <div class='course-banner'>
+                             <img class="i1"src="https://www.germanflora.de/images/27510.webp" alt=""/>
+                             <p class="info">Token Of Red Love</p><br>                             
+                             <span class="details">Earliest Delivery : <b>11-Mar</b></span><br>
+                             <div class="btn_box">
+
+                                <div class="price">EURO : 44.4</div>
+                                <div class="btn">BUY NOW</div>
                             </div>
-                            <div class="btn_box">
-                                <div class="btn">Add to cart</div>
-                                <div class="btn">Details</div>
+                         </div>
+                          
+                     </div>
+                      <div class="course">
+                         <div class='course-banner'>
+                             <img class="i1"src="https://www.germanflora.de/images/GBDE466.webp" alt=""/>
+                             <p class="info">Token Of Red Love</p><br>                             
+                             <span class="details">Earliest Delivery : <b>11-Mar</b></span><br>
+                             <div class="btn_box">
+
+                                <div class="price">EURO : 44.4</div>
+                                <div class="btn">BUY NOW</div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="course">
-                        <div class="course-banner">
-                            <img src="Images/flower6.png" alt="">
-                            <h3 class="course-title">
-                                Waterpfoof Chargeble Airpod
-                            </h3>
-                            <p class="course-aut">
-                                $45.12
-                            </p>
-                            <div class="course-info">
+                         </div>
+                          
+                     </div>
+                      <div class="course">
+                         <div class='course-banner'>
+                             <img class="i1"src="https://www.germanflora.de/images/GBDE409.webp" alt=""/>
+                             <p class="info">Token Of Red Love</p><br>                             
+                             <span class="details">Earliest Delivery : <b>11-Mar</b></span><br>
+                             <div class="btn_box">
 
-                                World wide shifting and water proof
+                                <div class="price">EURO : 44.4</div>
+                                <div class="btn">BUY NOW</div>
                             </div>
-                            <div class="btn_box">
-                                <div class="btn">Add to cart</div>
-                                <div class="btn">Details</div>
+                         </div>
+                          
+                     </div>
+                      <div class="course">
+                         <div class='course-banner'>
+                             <img class="i1"src="https://www.germanflora.de/images/GBDE114.webp" alt=""/>
+                             <p class="info">Token Of Red Love</p><br>                             
+                             <span class="details">Earliest Delivery : <b>11-Mar</b></span><br>
+                             <div class="btn_box">
+
+                                <div class="price">EURO : 44.4</div>
+                                <div class="btn">BUY NOW</div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="course">
-                        <div class="course-banner">
-                            <img src="Images/flower7.png" alt="">
-                            <h3 class="course-title">
-                                Outstanding Mic
-                            </h3>
-                            <p class="course-aut">
-                                $45.12
-                            </p>
-                            <div class="course-info">
+                         </div>
+                          
+                     </div>
+           </div>
+           <!----------------------------PRODUCTS CATEGORIES------------------------------------>
+           <div class="products">
+               <p class='hi2'><span id="hi2">SELECTED PRODUCT CATAGORIES</span></p>
+                 <div class="products-categories">
 
-                                Very nice,well hearing mic. Easy to use,easy to carry
-                            </div>
-                            <div class="btn_box">
-                                <div class="btn">Add to cart</div>
-                                <div class="btn">Details</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="course">
-                        <div class="course-banner">
-                            <img src="Images/flower8.png" alt="">
-                            <h3 class="course-title">
-                                Modelling Tripod
-                            </h3>
-                            <p class="course-aut">
-                                $45.12
-                            </p>
-                            <div class="course-info">
-                                <div>
-                                    <i class="fas fa-star filled"></i>
-                                    <i class="fas fa-star filled"></i>
-                                    <i class="fas fa-star filled"></i>
-                                    <i class="fas fa-star filled"></i>
-                                    <i class="fas fa-star filled"></i>
-                                </div>
-                                World wide shifting and water proof
-                            </div>
-                            <div class="btn_box">
-                                <div class="btn">Add to cart</div>
-                                <div class="btn">Details</div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-
-
-
-            </div>
-            <div class="see">
-                <a href="#">see more <i class="fas fa-arrow-right"></i></a>
-            </div>
-        </section>
-        <section class="container">
-            <h2 style="text-align:center" class="section-title">
-                CAKES TO GERMANY
-            </h2>
-            <div class="">
-                <div class="course">
-                    <div class="course-banner" id="course-style">
-                        <img src="Images/cake1.png" alt="">
-                        <h3 class="course-title">
-                            Flexible Tripod
-                        </h3>
-                        <p class="course-aut">
-                            $45.12
-                        </p>
-                        <div class="course-info">
-
-                            World wide shifting and water proof
-                        </div>
-                        <div class="btn_box">
-                            <div class="btn">Add to cart</div>
-                            <div class="btn">Details</div>
-                        </div>
-
-                    </div>
-
-                    <div class="course">
-                        <div class="course-banner">
-                            <img src="Images/cake2.png" alt="">
-                            <h3 class="course-title">
-                                Smart Camera
-                            </h3>
-                            <p class="course-aut">
-                                $45.12
-                            </p>
-                            <div class="course-info">
-
-                                portable three lagged frame or stand
-                            </div>
-                            <div class="btn_box">
-                                <div class="btn">Add to cart</div>
-                                <div class="btn">Details</div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="course">
-                        <div class="course-banner">
-                            <img src="Images/cake3.png" alt="">
-                            <h3 class="course-title">
-                                Flexible Waterproof Drone
-                            </h3>
-                            <p class="course-aut">
-                                $45.12
-                            </p>
-                            <div class="course-info">
-
-                                Remorte controlled, capability like capturing and water proof
-                            </div>
-                            <div class="btn_box">
-                                <div class="btn">Add to cart</div>
-                                <div class="btn">Details</div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="course">
-                        <div class="course-banner">
-                            <img src="Images/cake4.png" alt="">
-                            <h3 class="course-title">
-                                Exclusive Setup
-                            </h3>
-                            <p class="course-aut">
-                                $45.12
-                            </p>
-                            <div class="course-info">
-
-                                creazy and fumbelling and tater proof too World wide shifting and water proof
-                            </div>
-                            <div class="btn_box">
-                                <div class="btn">Add to cart</div>
-                                <div class="btn">Details</div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="course">
-                        <div class="course-banner">
-                            <img src="Images/same-day-gifts.png" alt="">
-                            <h3 class="course-title">
-                                Exclusive Setup
-                            </h3>
-                            <p class="course-aut">
-                                $45.12
-                            </p>
-                            <div class="course-info">
-
-                                creazy and fumbelling and tater proof too World wide shifting and water proof
-                            </div>
-                            <div class="btn_box">
-                                <div class="btn">Add to cart</div>
-                                <div class="btn">Details</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="course">
-                        <div class="course-banner">
-                            <img src="Images/gift basket.png" alt="">
-                            <h3 class="course-title">
-                                Exclusive Setup
-                            </h3>
-                            <p class="course-aut">
-                                $45.12
-                            </p>
-                            <div class="course-info">
-
-                                creazy and fumbelling and tater proof too World wide shifting and water proof
-                            </div>
-                            <div class="btn_box">
-                                <div class="btn">Add to cart</div>
-                                <div class="btn">Details</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="course">
-                        <div class="course-banner">
-                            <img src="Images/birthday-cake.png" alt="">
-
-                            <h3 class="course-title">
-                                Exclusive Setup
-                            </h3>
-                            <p class="course-aut">
-                                $45.12
-                            </p>
-                            <div class="course-info">
-
-                                creazy and fumbelling and tater proof too World wide shifting and water proof
-                            </div>
-                            <div class="btn_box">
-                                <div class="btn">Add to cart</div>
-                                <div class="btn">Details</div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="course">
-                        <div class="course-banner">
-                            <img src="Images/bouquets.png" alt="">
-
-                            <h3 class="course-title">
-                                Exclusive Setup
-                            </h3>
-                            <p class="course-aut">
-                                $45.12
-                            </p>
-                            <div class="course-info">
-
-                                creazy and fumbelling and tater proof too World wide shifting and water proof
-                            </div>
-                            <div class="btn_box">
-                                <div class="btn">Add to cart</div>
-                                <div class="btn">Details</div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-
-
-
-            </div>
-            <div class="see">
-                <a href="#">see more <i class="fas fa-arrow-right"></i></a>
-            </div>
-            <section class="container">
-                <h2 style="text-align:center" class="section-title">
-                    DECORATIVE PLANTS
-                </h2>
-                <div class="">
-                    <div class="course">
-                        <div class="course-banner" id="course-style">
-                            <img src="Images/allplants.png" alt="">
-                            <h3 class="course-title">
-                                Flexible Tripod
-                            </h3>
-                            <p class="course-aut">
-                                $45.12
-                            </p>
-                            <div class="course-info">
-
-                                World wide shifting and water proof
-                            </div>
-                            <div class="btn_box">
-                                <div class="btn">Add to cart</div>
-                                <div class="btn">Details</div>
-                            </div>
-                        </div>
-
-                        <div class="course">
-                            <div class="course-banner">
-                                <img src="Images/gift1.png" alt="">
-                                <h3 class="course-title">
-                                    Smart Camera
-                                </h3>
-                                <p class="course-aut">
-                                    $45.12
-                                </p>
-                                <div class="course-info">
-
-                                    portable three lagged frame or stand
-                                </div>
-                                <div class="btn_box">
-                                    <div class="btn">Add to cart</div>
-                                    <div class="btn">Details</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="course">
-                            <div class="course-banner">
-                                <img src="Images/gift2.png" alt="">
-                                <h3 class="course-title">
-                                    Flexible Waterproof Drone
-                                </h3>
-                                <p class="course-aut">
-                                    $45.12
-                                </p>
-                                <div class="course-info">
-
-                                    Remorte controlled, capability like capturing and water proof
-                                </div>
-                                <div class="btn_box">
-                                    <div class="btn">Add to cart</div>
-                                    <div class="btn">Details</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="course">
-                            <div class="course-banner">
-                                <img src="Images/gift3.png" alt="">
-                                <h3 class="course-title">
-                                    Exclusive Setup
-                                </h3>
-                                <p class="course-aut">
-                                    $45.12
-                                </p>
-                                <div class="course-info">
-
-                                    creazy and fumbelling and tater proof too World wide shifting and water proof
-                                </div>
-                                <div class="btn_box">
-                                    <div class="btn">Add to cart</div>
-                                    <div class="btn">Details</div>
-                                </div>
-                            </div>
-                        </div>
-
-
-
-
-
-                    </div>
-            </section>
-            <section class="container">
-                <h2 style="text-align:center" class="section-title">
-                    SELECTED PRODUCT CATAGORIES
-                </h2>
-                <div class="courses">
-                    <div class="course">
-                        <div class="course-banner" id="course-style">
-                            <img src="Images/same-day-delivery.png" alt="">
-
-                        </div>
-
-                        <div class="course">
-                            <div class="course-banner">
-                                <img src="Images/wedding-flower.png" alt="">
-
-                            </div>
-                        </div>
-                        <div class="course">
-                            <div class="course-banner">
-                                <img src="Images/birthday-flowers-gifts.png" alt="">
-
-                            </div>
-                        </div>
-                        <div class="course">
-                            <div class="course-banner">
-                                <img src="Images/anniversary-gift.png" alt="">
-
-                            </div>
-                        </div>
-
-
-
-
-
-                    </div>
-            </section>
-
-
-
-
-            </div>
-            <div class="see">
-                <a href="#">see more <i class="fas fa-arrow-right"></i></a>
-            </div>
-        </section>
-        <section class="container">
-            <div class="footer-heading">
-                <img style="width:100%" src="Images/footer.png" />
-
-            </div>
-            </div>
-        </section>
-
-
-
-
-
+               <div class="categories">
+                   <img src="https://www.germanflora.de/theme/icon-bot1.webp"/>
+                   <p>SAME DAY DELIVERY</p>
+               </div>
+               <div class="categories">
+                    <img src="https://www.germanflora.de/theme/icon-bot1.webp"/>
+                   <p>SAME DAY DELIVERY</p>
+               </div>
+               <div class="categories">
+                    <img src="https://www.germanflora.de/theme/icon-bot1.webp"/>
+                   <p>SAME DAY DELIVERY</p>
+               </div>
+               <div class="categories">
+                    <img src="https://www.germanflora.de/theme/icon-bot1.webp"/>
+                   <p>SAME DAY DELIVERY</p>
+               </div>
+               <div class="categories">
+                    <img src="https://www.germanflora.de/theme/icon-bot1.webp"/>
+                   <p>SAME DAY DELIVERY</p>
+               </div>
+           </div>
+           </div>
+           
     </main>
     <footer>
+        <div class="foot1">
+            <h2 class="foot-heading">Send Flowers to Germany to your loved ones just by a click of a button! :</h2>
 
+                    <P style="color: gray">button! Wine Bottles are one of the most significant options when it comes to giving away special gifts to your special ones. A simple bottle of Red Wine, when gifted on a festival or occasion, can uplift the spirits of everyone present in the house, don't you think so? If you are of the same opinion, then please come 
+                        <h2 class="foot-heading">Birthday and Anniversary Flowers Delivery in Germany :</h2>
 
+                        <p style="color: gray">and check out our latest Wine Bottles collection so that you can Send Wine Bottles to Germany for your loved ones. Our collection is exclusive and one if its kind. We are pretty sure that the Wine Hampers you will see here will not be available in any local shop or market. These are only available on our royal Wine Bottles online collection. But not only Wine, we have other options for you too. Check out our collection and you will find a lot of premium drinks options, which includes Classic Red Wine, Bordeaux Red Wine, White Wine, Sparkling Wine, Rose Wine, Moet Chandon Champagne, Remy Martin, Chivas Regal, Ballantines Scotch, Californian and Australian Wine, Dom Perignon Champagne, and many other exclusive Bottles. There are certain French Gourmet Wine Baskets, more popularly known as Gift Box of French, which will enthral you completely. Our premium services of Online Delivery of Wine Hampers in Germany will help you to get these exclusive drinks delivered right to your doorsteps.</p>
+                        <h2 class="foot-heading">Cake Delivery in Germany using GermanFlora.de :</h2>
+                     <p style="color: gray"> Good news is that these Wine Bottles are often paired with other pleasant gift items to make a beautiful Online Gift Combo. In some of the available hampers, you can see that the Wine Bottles or Champagnes are paired with lovely Bouquets of Fresh Seasonal Flowers or Red Roses. One such Online Gift Hamper can serve to be a perfect gift for a family during Christmas or New Year. There are some other Gourmet Baskets where one Bottle is coupled with the other to form a unique combination. In other cases, you will find Online Hampers where you will get exclusive gourmet Chocolates along with Red Wine Hampers for Christmas or New Year. These Gift Hampers can be gifted to one of your dearest friends on his/her birthday. You can also choose to gifts one of these hampers to your husband or wife on the special day of your wedding anniversary or Valentine's Day. Basically, you can Send Wine Bottles to Germany on any festival or special occasion throughout the year, with the help of our website.
+                        <h2 class="foot-heading">24/7 Customer Service and Safe Payment Options :</h2>
+                         <p style="color: gray"> We have a very smooth Customer Service system that is operational all day and night. You can talk to us anytime when you feel like. We will be more than happy to assist you. Also, you can choose to avail Same Day Delivery services if you are ordering any Online Gift Hamper through our website. We have some very simple and Secured Payment Options so that you can make a payment on our website without any fuss. Basically, all your needs are carefully looked after on our Online Shop. So, take advantage of our</P>   
+                         <h2 class="foot-heading">Customer Testimonials :</h2>
+                     <section class="container">
+               
+                        <div class="owl-carousel owl-theme">
+                            <div class="item">
+                                <img src="https://www.germanflora.de/theme/carousal-3-for-homepageflowers.webp" alt=""/>
+                            </div>
+                            <div class="item">
+                                 <img src="https://www.germanflora.de/theme/carousal-3-for-homepageflowers.webp" alt=""/>
+                            </div>
+                            <div class="item">
+                                 <img src="https://www.germanflora.de/theme/carousal-3-for-homepageflowers.webp" alt=""/>
+                            </div>
+                            
+        </div>
+        <div class="foot2">
+            <h2 class="foot-heading">Quick Germany City Links :</h2>
 
+                  <p style="color: gray">
+                      Holiday Hamper to Heidelberg , &nbsp;&nbsp;&nbsp; Flowers Delivery Osnabruck ,&nbsp;&nbsp;&nbsp; Gift Basket to Gottingen, &nbsp;&nbsp;&nbsp;Corporate Gifts to Augsburg, &nbsp;&nbsp;&nbsp; Candies Delivery Ludwigshafen , &nbsp;&nbsp;&nbsp;<br><br> Flower Delivery Bruchsal, &nbsp;&nbsp;&nbsp; Gifting in Koblenz St., &nbsp;&nbsp;&nbsp; Valentine Flowers Senftenberg,&nbsp;&nbsp;&nbsp; Wedding Bouquet Mittweida Fresh Fruits,&nbsp;&nbsp;&nbsp; in Trossingen Send Chocolates Herford Send Flowers,&nbsp;&nbsp;&nbsp;<br><br> to Bochum Gift Ideas,&nbsp;&nbsp;&nbsp; Greifswald Xmas Flowers ,&nbsp;&nbsp;&nbsp;Weimar Cakes Merseburg ,&nbsp;&nbsp;&nbsp;Kids Gifts to Potsdam Wine,&nbsp;&nbsp;&nbsp;rvgrjvnjvngjfjfkreoirfkr&nbsp;&nbsp;&nbsp; fvdvfkvnftikrorfklvkgbm&nbsp;&nbsp;&nbsp; bmkggfkbmgfgtrgkg&nbsp;<br><br>Delivery Oberursel Gifts,&nbsp;&nbsp;&nbsp; Wurzburg Christmas Hamper,&nbsp;&nbsp;&nbsp; to Benediktbeu New Year,&nbsp;&nbsp;&nbsp; Flowers Rottenburg
+                  </p>
+        </div>
+        <div class="foot3">
+             <div class="last">
+                        <p>seme day gifts</p>
+                        
+                        <p>flower arrangements</p>
+                        <p>plants</p>
+                    </div>
+                     <div class="last">
+                         <p>seme day gifts</p>
+                        
+                        <p>flower arrangements</p>
+                        <p>plants</p>
+                     </div>
+                      <div class="last">
+                          <p>seme day gifts</p>
+                        
+                        <p>flower arrangements</p>
+                        <p>plants</p>
+                      </div>
+                       <div class="last">
+                           <p>seme day gifts</p>
+                        
+                        <p>flower arrangements</p>
+                        <p>plants</p>
+                       </div>
+                        <div class="last">
+                            <p>seme day gifts</p>
+                        
+                        <p>flower arrangements</p>
+                        <p>plants</p>
+                        </div>
+        </div>
+        <hr>
+        <div class="foot-4">
+            <div class='last123'>
+                    <div class="last1">ABOUT US</div>
+                     <div class="last1">TERMS & CONDITION</div>
+                      <div class="last1">PRIVACY POLICY</div>
+                       <div class="last1">DELIVERY INFO</div>
+                        <div class="last1">MEMBER LOGIN</div>
+                         <div class="last1">ORDER STATUS</div>
+                         <div class="last1">PRIVACY</div>
+                     </div>
+                     <p><center class="foot-para">COPYRIGHT 2023 &copy; <a class="footer-link"href="#">Germanflorida</a></center></p>
 
+        </div>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript">
+                          function myFunction() {
+                  var x = document.getElementById("myTopnav");
+                  if (x.className === "topnav") {
+                    x.className += " responsive";
+                  } else {
+                    x.className = "topnav";
+                  }
+                }
 
+          
+        $('.owl-carousel').owlCarousel({
+            loop:true,
+            margin:10,
+            nav:false,
+            
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:3
+                },
+                1000:{
+                    items:1
+                }
+                }
+            })
+    </script>
+    
 </body>
-
 </html>
